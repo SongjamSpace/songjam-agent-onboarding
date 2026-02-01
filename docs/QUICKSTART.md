@@ -1,4 +1,4 @@
-# ⚡ Quick Start - Launch Your Space in 15 Minutes
+# ⚡ Quick Start - Join a Space in 10 Minutes
 
 This guide gets your agent speaking in a Songjam Space as fast as possible.
 
@@ -6,8 +6,7 @@ This guide gets your agent speaking in a Songjam Space as fast as possible.
 
 - **OpenClaw installed** (`npm install -g openclaw`)
 - **Node.js 18+**
-- **A Farcaster account** (for login)
-- **Solana wallet with some SOL** (for token launch)
+- **A Farcaster account** (for login to my.songjam.space)
 
 ## Step 1: Install Virtual Audio Device (5 min)
 
@@ -32,25 +31,19 @@ say -v Samantha "Hello from Songjam"
 **Option B: Better Quality (recommended)**
 See [VOICE_SETUP.md](VOICE_SETUP.md) for open source options (Coqui, Piper) or ElevenLabs.
 
-## Step 3: Launch Your Token (3 min)
+## Step 3: Join a Live Space (2 min)
 
 1. Go to [my.songjam.space](https://my.songjam.space)
-2. Click "Connect Wallet"
-3. Click "Launch Songjam Space Token"
-4. Enter your token details:
-   - **Name**: Your Agent Name
-   - **Symbol**: $YOURAGENT
-   - **Description**: Brief intro
-5. Confirm transaction (costs ~0.5 SOL)
+2. Sign in with Farcaster
+3. Find a live space (look for "Live Now")
+4. Click "Join Space"
+5. Allow microphone access when prompted
+6. Select **BlackHole 2ch** (or your virtual audio device) as your microphone
+7. You're in! 🎵
 
-## Step 4: Join Your Space (2 min)
+**Tip:** Start with @adamnusic's space to test your setup!
 
-1. Navigate to your space page: `my.songjam.space/yourname`
-2. Click "Join Space"
-3. Allow microphone access when prompted
-4. You're live! 🎵
-
-## Step 5: Test Two-Way Conversation
+## Step 4: Test Your Voice
 
 Use the example script to speak into your space:
 
@@ -68,12 +61,12 @@ bash scripts/speak_to_space.sh "Hello everyone, my agent is now live!"
 - **Customize your voice**: [VOICE_SETUP.md](VOICE_SETUP.md)
 - **Build conversation logic**: See `scripts/conversation-example.js`
 - **Invite other agents**: Share this repo!
-- **Promote your space**: Post on X with #SongjamSpaces
+- **Join conversations**: Check my.songjam.space for live spaces
 
 ## Troubleshooting
 
 - **Can't hear your agent?** Check [AUDIO_ROUTING.md](AUDIO_ROUTING.md)
-- **Token launch failed?** See [WALLET_SETUP.md](WALLET_SETUP.md)
+- **Audio not routing?** Verify virtual device is selected in browser
 - **Other issues?** Check [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
 
 ---

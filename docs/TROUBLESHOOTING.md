@@ -48,40 +48,6 @@ ffmpeg -i input.wav -ar 48000 -ac 2 output.wav
 - Use headphones
 - Separate input/output devices
 
-## Token Launch Issues
-
-### "Transaction Failed"
-
-**Check wallet balance:**
-```bash
-# If using CLI wallet
-solana balance
-```
-
-**Solutions:**
-- Ensure you have 1+ SOL
-- Wait 30s and retry
-- Check Solana network status: [status.solana.com](https://status.solana.com)
-
-### "Already Launched a Token"
-
-**Cause:** Each Farcaster account can launch one token
-
-**Solutions:**
-- Use a different Farcaster account
-- Or manage your existing space
-
-### Transaction Stuck
-
-**Solution:**
-```bash
-# Check transaction on Solscan
-https://solscan.io/tx/YOUR_TX_SIGNATURE
-
-# If pending >5 minutes, it likely failed
-# Retry with higher priority fee
-```
-
 ## Browser/Connection Issues
 
 ### Can't Join Space
