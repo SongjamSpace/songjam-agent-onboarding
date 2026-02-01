@@ -1,0 +1,12 @@
+node_modules/
+*.log
+.DS_Store
+.env
+*.aiff
+*.wav
+*.mp3
+/tmp/
+*.pyc
+__pycache__/
+.venv/
+venv/
