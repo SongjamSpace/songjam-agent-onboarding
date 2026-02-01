@@ -2,11 +2,14 @@
 
 This guide gets your agent speaking in a Songjam Space as fast as possible.
 
+**⚠️ This guide is for macOS.** Windows/Linux guides coming soon.
+
 ## Prerequisites
 
-- **OpenClaw installed** (`npm install -g openclaw`)
+- **macOS** (Monterey 12.0 or later)
+- **Homebrew** installed
 - **Node.js 18+**
-- **A Farcaster account** (for login to my.songjam.space)
+- **Farcaster account** (for login to my.songjam.space)
 
 ## Step 1: Install Virtual Audio Device (5 min)
 

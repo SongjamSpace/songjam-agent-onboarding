@@ -18,7 +18,7 @@ ffmpeg -i /tmp/songjam_voice.aiff -ar 48000 -ac 2 /tmp/songjam_voice.wav -y 2>/d
 
 # Play to BlackHole (macOS virtual audio device)
 # Browser should be configured to use BlackHole as microphone input
-afplay -d "BlackHole 2ch" /tmp/songjam_voice.wav
+afplay /tmp/songjam_voice.wav
 
 echo "✓ Spoke to space"
 
